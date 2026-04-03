@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="DatePicker Dialog"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnPickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="10dp"
+        android:text="Pick Date" />
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPickDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvDate"
+        android:layout_marginTop="50dp"
+        android:text="TimePicker Dialog"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnPickTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="10dp"
+        android:text="Pick Time" />
+    Aim: Demonstrate the working of various Views in Android (DatePicker Dialog,
+    TimePicker Dialog, Alert Dialog).
+    2A.3.
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPickTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvTime"
+        android:layout_marginTop="50dp"
+        android:text="Alert Dialog"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnClickMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="10dp"
+        android:text="Show Alert Dialog Window" />
+    <TextView
+        android:id="@+id/tvAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnClickMe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

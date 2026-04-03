@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSpinner"
+        android:text="Spinner"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/tvSpinner"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_toRightOf="@+id/spinner1"
+        android:layout_below="@id/tvSpinner"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_click"
+        android:text="Click Here"
+        android:layout_below="@id/spinner1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSpinnerOutput"
+        android:layout_below="@id/btn_click"
+        android:textSize="20dp"/>
+    2A.2
+    Aim: Demonstrate the working of various Views in Android. (Spinner, ListView, Menu)
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListView"
+        android:text="ListView"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvSpinnerOutput"
+        android:layout_marginTop="30dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/tvListView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListViewOutput"
+        android:layout_below="@id/listView"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMenu"
+        android:text="Menu"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvListViewOutput"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMenuOutput"
+        android:layout_below="@id/tvMenu"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

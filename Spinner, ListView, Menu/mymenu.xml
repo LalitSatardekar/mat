@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bm"
+        android:title="Bookmarks"/>
+    <item
+        android:id="@+id/sr"
+        android:title="Search"/>
+    <item
+        android:id="@+id/sa"
+        android:title="Save"/>
+    <item
+        android:id="@+id/sh"
+        android:title="Share"/>
+    <item
+        android:id="@+id/dlt"
+        android:title="Delete"/>
+</menu>

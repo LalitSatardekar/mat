@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout Vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnLV"
+
+        />
+
+    <Button
+        android:id="@+id/btnLH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnLV"
+        android:text="Linear Layout Horizontal" />
+
+    <Button
+        android:id="@+id/btnRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/btnLV"
+        android:text="Relative Layout" />
+
+
+</RelativeLayout>

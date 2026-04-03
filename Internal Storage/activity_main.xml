@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:hint="Enter Message"
+        android:minLines="5">
+    </EditText>
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write Text into File"
+        android:textSize="20dp"
+        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Text From file"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnWrite"/>
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnRead"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:minLines="5"/>
+</RelativeLayout> 
